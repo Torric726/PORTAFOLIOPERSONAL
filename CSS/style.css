@@ -1,0 +1,208 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes y Colores */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Contenedor común */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #1a1a1a;
+    color: #f39c12;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header__subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.header__nav ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.header__nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header__nav ul li a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header__nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #f39c12;
+}
+
+/* Sección Sobre mí */
+.about {
+    background: #181818;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about__image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #f39c12;
+    margin-bottom: 30px;
+}
+
+/* Sección Proyectos */
+.projects {
+    background-color: #232323;
+    padding: 60px 0;
+}
+
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #333;
+    padding: 30px;
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project__title {
+    font-size: 1.5rem;
+    color: #f39c12;
+    margin-bottom: 15px;
+}
+
+.project__description {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Sección Certificaciones */
+.certifications {
+    background-color: #333;
+    padding: 60px 0;
+}
+
+.certifications__list {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.certifications__list li {
+    margin-bottom: 15px;
+}
+
+/* Sección Testimonios */
+.testimonials {
+    background-color: #444;
+    padding: 60px 0;
+}
+
+.testimonials__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #555;
+    padding: 30px;
+    width: 60%;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Sección Contacto */
+.contact {
+    background-color: #232323;
+    padding: 60px 0;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+.footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
